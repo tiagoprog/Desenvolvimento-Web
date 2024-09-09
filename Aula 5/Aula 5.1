@@ -38,3 +38,46 @@ const setinha = (entrada) => {
 }
 
 const setinha2 = (entrada) => entrada + 34;
+
+const meuArray = [21, 34, 'Andergleison', [32,45]];
+
+var minhaGlobal = 34;
+
+function minhaNovissimaFuncao(){
+  var minhaGlobal = 23
+  return minhaGlobal;
+}
+
+function minhaFuncaoMaior(entrada){
+  let resultado;
+  if (entrada % 2 == 0){
+    resultado = 'par';
+  }
+  return resultado;
+}
+
+function minhaFuncaoMaior2(entrada){
+  let r;
+  if (entrada % 2 == 0){
+    r = 'par';
+  } else {
+    r = 'ímpar';
+  }
+  return r;
+}
+
+meuArray.forEach((el) => console.log(el))
+
+const funcImprime = (ele, indice) => console.log("índice", indice, ":", ele)
+
+meuArray.forEach(funcImprime)
+
+function minhaFuncaoMaior3(entrada){
+  const r '';
+  if (entrada % 2 == 0){
+    r = 'par';
+  } else {
+    r = 'ímpar';
+  }
+  return r;
+}
